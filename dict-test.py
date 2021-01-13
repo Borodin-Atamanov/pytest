@@ -3,9 +3,22 @@ import re
 import operator
 import string
 
+di = {1:2, 3:4}
+
+#di = {k: v for k, v in range(0, 10)}
+di = {val: True for val in range(10, 12)}   # works, create {10: True, 11: True}
+
+#print(tuple(di))
+#di = {k: v for k,v in ((1,2), (3,4))} # works
+#di = {k: v for k,v in di}
+#di = {k: v for k,v in list(di)}
+print(di)
+
+exit()
+
 data = {}
 
-i=130000
+i=13
 while i > 0:
     data[len(data)] = {
         'start':(random.gauss(100, 10)),

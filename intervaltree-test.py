@@ -24,7 +24,6 @@ t3.merge_overlaps()
 print ("Объедияем")
 
 for interval_obj in t3:
-    print (interval_obj.begin, ' -- ', interval_obj.end)
-
+    print (interval_obj.begin, '--', interval_obj.end)
 
 #for interval in t3: print (interval.begin, ' -- ', interval.end)
