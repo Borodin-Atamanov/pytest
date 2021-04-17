@@ -1,4 +1,5 @@
 *.csv
+*.tsv
 *.txt
 input.csv
 findreplace.csv
